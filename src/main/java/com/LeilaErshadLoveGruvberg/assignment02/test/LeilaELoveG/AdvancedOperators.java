@@ -1,6 +1,6 @@
 package com.LeilaErshadLoveGruvberg.assignment02.test.LeilaELoveG;
 
-public interface AdvancedOperators { // ADVANCEDOPERATORS
+public interface AdvancedOperators extends BasicOperators { // ADVANCEDOPERATORS
 	public double pow(double operand1, double operand2);
 
 	public double min(double operand1, double operand2);
