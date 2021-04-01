@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 //import javax.swing.*;
 //import java.awt.event.*;
 
-public class MyCalculator implements AdvancedOperators, BasicOperators {
+public class MyCalculator {//implements AdvancedOperators, BasicOperators {
 	double operand1, operand2, result;
 	char operator;
 
