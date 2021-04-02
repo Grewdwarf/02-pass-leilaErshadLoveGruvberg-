@@ -2,7 +2,8 @@ package com.LeilaErshadLoveGruvberg.assignment02.test.LeilaELoveG;
 
 import javax.swing.JOptionPane;
 
-public class MyCalculator implements AdvancedOperators, BasicOperators {
+public class MyCalculator { 
+	//implements AdvancedOperators, BasicOperators {
 	double operand1, operand2, result;
 	char operator;
 

@@ -5,14 +5,15 @@ import java.text.DecimalFormat;
 import java.util.Random;
 import org.junit.Test;
 
-public class LeilaLoveJUnit_test implements BasicOperators, AdvancedOperators {
+public class LeilaLoveJUnit_test {
+	//implements BasicOperators, AdvancedOperators{
 
 	MyCalculator mc = new MyCalculator();
 
 	Random rnd = new Random();
 
-	double max = 15;
 	double min = -15;
+	double max = 15;
 
 	// Formats results as decimals
 	static DecimalFormat df = new DecimalFormat("#.##");
@@ -108,7 +109,7 @@ public class LeilaLoveJUnit_test implements BasicOperators, AdvancedOperators {
 		firstNumber = 0;
 		secondNumber = 0;
 		{
-			System.out.println("\n––– MAX –––");
+			System.out.println("\n ––– MAX –––");
 			for (int i = 0; i < 4; i++) {
 				firstNumber = (rnd.nextDouble() * 10 + rnd.nextDouble() * 10);
 				secondNumber = (rnd.nextDouble() * -10 + rnd.nextDouble() * 10);
@@ -120,7 +121,7 @@ public class LeilaLoveJUnit_test implements BasicOperators, AdvancedOperators {
 		}
 		firstNumber = 0;
 		{
-			System.out.println("\n––– Square Root √ –––");
+			System.out.println("\n ––– Square Root √ –––");
 			for (int i = 0; i < 4; i++) {
 				firstNumber = (rnd.nextDouble() * 10 + rnd.nextDouble() * 10);
 				double result = Math.sqrt(firstNumber);
